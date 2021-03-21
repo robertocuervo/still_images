@@ -28,8 +28,11 @@ maple_leaf_rag =  \relative c''{
             \line {  mute }
              \line { \italic  articulate each note }  
      } }_\pp d8~}   \tuplet 3/2 {d8. d16 d8~}  \tuplet 3/2 { d8 d4~} \tuplet 3/2 { d8. d16 d8~ } | 
-    \tuplet 3/2 { d8 d4~ } \tuplet 3/2 { d8 d16 d8.~ }\tuplet 3/2 { d4 d8~ } \tuplet 3/2 { d8. d16 d8~ }
-     
+    \tuplet 3/2 { d8 d4~ } \tuplet 3/2 { d8 d16 d8.~ } \tuplet 3/2 { d4 d8~ } \tuplet 3/2 { d8 d16 d8.~ }
+     \tuplet 3/2 { d4 d8~}   \tuplet 3/2 {d8 d16 d8.~}  \tuplet 3/2 { d4 ef16 (fs16~ }  \tuplet 5/2 { g16 af16 b16 c16 cs16 } |
+
+  \time 3/4 d16) r16 r8 r4 r4 
+
      | r8 g8 g8 r8 | r8 ef8 ef8 r8 | r8 g8 g8 r16 ef16   |
  
   ff16 (af16) cf16 ff16 r16 ef8 ef,16 | ff16 (af16) cf16 ff16 r16 ef8 r16 | 
@@ -238,8 +241,8 @@ the_cascades =  \relative c''{
 \bookpart {
   \header{
     title = "Still Images"
-    subtitle = "1. Maple Leaf Rag"
-    composer = "Vera Ivanova"
+
+    composer = "Vera Ivanova (*1977)"
     tagline = ""  % removed
   }
 

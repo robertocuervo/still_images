@@ -1,6 +1,7 @@
 \language "english"
 %{
-Two Joplin Rags, transcription for soprano sax of the oboe part of the Two Joplin Rags by Joplin
+Still Images, Vera Ivanova
+Oboe and Englishhorn part 
 ===================
 
 %}
@@ -15,12 +16,21 @@ num =
   
 
 maple_leaf_rag =  \relative c''{
-  \key af \major
-  \tempo "Moderato" 4 = 96
-  \time 2/4
-  \partial 8 r8 | \repeat volta 3 {  
+  \key c \major
+  \tempo "Largo" 4 = 69
+  \time 4/4
+   \repeat volta 3 {  
     \once \override Score.RehearsalMark.font-size = #-2
-    \mark \markup { \musicglyph #"scripts.segno" } r8 ef,8_\f ef8 r8 | r8 g8 g8 r8 | r8 ef8 ef8 r8 | r8 g8 g8 r16 ef16   |
+     R1*5 | 
+     \tuplet 3/2 {
+     d,4^\markup {
+       \column {
+            \line {  mute }
+             \line { \italic  articulate each note }  
+     } }_\pp d8~}   \tuplet 3/2 {d8. d16 d8~}  \tuplet 3/2 { d8 d4~} \tuplet 3/2 { d8. d16 d8~ } | 
+    \tuplet 3/2 { d8 d4~ } \tuplet 3/2 { d8 d16 d8.~ }\tuplet 3/2 { d4 d8~ } \tuplet 3/2 { d8. d16 d8~ }
+     
+     | r8 g8 g8 r8 | r8 ef8 ef8 r8 | r8 g8 g8 r16 ef16   |
  
   ff16 (af16) cf16 ff16 r16 ef8 ef,16 | ff16 (af16) cf16 ff16 r16 ef8 r16 | 
   \override Score.BarNumber.stencil
@@ -227,13 +237,13 @@ the_cascades =  \relative c''{
 
 \bookpart {
   \header{
-    title = "Two Joplin Rags"
+    title = "Still Images"
     subtitle = "1. Maple Leaf Rag"
-    composer = "Scott Joplin"
+    composer = "Vera Ivanova"
     tagline = ""  % removed
   }
 
-  \markup {Oboe }
+  \markup {Oboe/Englishhorn }
   \score {
       <<
         \new Staff \maple_leaf_rag

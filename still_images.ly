@@ -31,9 +31,10 @@ maple_leaf_rag =  \relative c'' {
   \time 3/4  
   d16-.)_\pp r16 r 8 r4 r4  |
   r2. |
-  e,16[ e8.]~ \tuplet 3/2 { e8 e4~} e8.[ e16~] |
+  e,16_\pp [ e8.]~ \tuplet 3/2 { e8 e4~} e8.[ e16~] |
    e2~ e8.[ e16]~ | e2~ e8.^\markup { \italic gliss. }\< [\glissando f16]->_\fz  |
-  \time 4/4 R1*4^\markup {\italic mute off} 
+  \time 4/4 R1^\markup {\italic mute off}
+    R1*3 | 
     g1~->_\f |
     g4~\< \tuplet 5/4 {g4 b,16->\ff\!~} b2 |
      r2 r4 \tuplet 6/4 {r16_\mf d'16->~ d4 } | 

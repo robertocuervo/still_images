@@ -45,7 +45,7 @@ maple_leaf_rag =  \relative c'' {
      r2 r4 \tuplet 6/4 {r16_\mf d'16->~ d4~ } |      \pitchedTrill d4~\< \startTrillSpan cs d8.\stopTrillSpan c'!16 (cs,!2)\!   \mark \default |  
    f,16->\f r16 r8 r4 r4 \tuplet 5/4 {r8 g8.\mf~}  | 
    g4~ g4\f\< g'16-.\ff r16 r8 r4 | R1 | \time 3/4 c,16->\f r16 r8 r4  \tuplet 3/2 {r4 r16 d16~->\f} |
-    \tuplet 3/2 {d4 r16 c16-.}    \tuplet 6/4 { df16-. r8 c8.~} \repeat tremolo 4 c16\< | c'16->\fz r16 r8  r4 r4 | R2. |
+    \tuplet 3/2 {d4 r16 c16-.}    \tuplet 6/4 { df16[-. r8 c8.]~} \repeat tremolo 4 c16\< | c'16->\fz r16 r8  r4 r4 | R2. |
     r4 g,8--\mf\> g8~--\tuplet 6/4 { g16 g8.-- g8-\!} |  
     
     \time 4/4  

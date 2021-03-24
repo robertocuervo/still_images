@@ -13,7 +13,16 @@ num =
       $musique 
       \revert Score.BarNumber.break-visibility 
     #})
-  
+  cornaco = \relative c' {
+     \time 4/4  
+    r4_"Englishhorn" \tuplet 3/2 { r4 d8~(\pp} d8 \acciaccatura e16 ef8~-> ef16 d8.~ | d8[) r16 e!16](->~e16[ d16) r16 e!16](->~e16 d16\>)  r16 e16(->~ \tuplet 3/2 {e16 d16 e4~\!} | 
+     \time 3/4  
+     e16)_"niente"  r16 r 8 r4 r4 | 
+       \time 4/4 
+       r8 e8(\pp d8. e16~ \tuplet 3/2 { e8) f4(->~} f16 e16 d8~ | \tuplet 3/2 { d8[) r8  \acciaccatura ds16( e8]~->\>}
+       \tuplet 3/2 { e4 ef8~} ef16_"niente"\!) r16 r8 r4 |  
+    
+     }
 
 maple_leaf_rag =  \relative c'' {
   \set Score.markFormatter = #format-mark-box-alphabet
@@ -52,13 +61,9 @@ maple_leaf_rag =  \relative c'' {
    g16-.\pp^\markup {take Englishhorn}_"molto ritenuto" r16  r8 r4 r2 | R1*2 | 
     \mark \default  \tempo "Tempo I" 4 = 69
     %Corno%
-   r4_"Englishhorn" \tuplet 3/2 { r4 d8~(\pp} d8 \acciaccatura e16 ef8~-> ef16 d8.~ | d8[) r16 e!16](->~e16[ d16) r16 e!16](->~e16 d16\>)  r16 e16(->~ \tuplet 3/2 {e16 d16 e4~\!} | 
-     \time 3/4  
-     e16)_"niente"  r16 r 8 r4 r4 | 
-       \time 4/4 
-       r8 e8(\pp d8. e16~ \tuplet 3/2 { e8) f4(->~} f16 e16 d8~ | \tuplet 3/2 { d8[) r8  \acciaccatura ds16( e8]~->\>}
-       \tuplet 3/2 { e4 ef8~} ef16_"niente"\!) r16 r8 r4 |  
-     
+ 
+  % \transpose c g { \cornaco } %
+   \cornaco
 
    
 }

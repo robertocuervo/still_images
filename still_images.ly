@@ -27,6 +27,12 @@ num =
       \tuplet 5/4 { bf'16[-.\mp r8. e,16]( } \tuplet 5/4 {ef16[ d e! cs ef]} \tuplet 5/4 { df16 c! d! ef d)}  | \tuplet 5/4 {r16[ df( c d! ef ]} \tuplet 5/4 {df16[ ef d  c df ]} \tuplet 5/4 { e16[) r16 d!( ef e!]} |
       \tuplet 5/4 {ds16[ e ds e d]}  \tuplet 5/4 {d!16[ ds e ds d!] }   \tuplet 6/4 { ds16[ r d! ef d df] } | \tuplet 6/4 {c16[) r d( ef d cs] } \tuplet 6/4 { d16[) r16 d( c b as] } \tuplet 6/4 { b[ as a! as b c!]} | 
       \tuplet 6/4 { cs16[ d cs bs cs bs]} \tuplet 6/4 { d16[ cs16) r16 bs8( cs16]} \tuplet 5/4 { d16[ cs bs cs d]} | e16) r16 r8 r4 r4 |
+      r4 r4 \tuplet 5/4 {r16\pp b'4~ } | \tuplet 5/4 { b4\< bf16-.\sf\! } r4 r4 | 
+      r8 r16 cs,16( \tuplet 6/4 { b16[ bf af gf f]) r} \tuplet 6/4 {r4 r16 cs'16( } | \tuplet 6/4 { b16[ a g gf f e]) } \tuplet 6/4 { r8 cs'16\>[( b a af  ]} g16)\!\mp r16 r8  | R2. | 
+        \mark \default
+      r16_ "meno mosso" e'8.(->\mf~ e4. g16) r16 | 
+      r16 e8.->~ \tuplet 5/4 {e8.[ a16( g16]~ } \tuplet 5/4 { g16[ f8. e16] } | \tuplet 5/4 { ef16 d16) r8. } r4 r4 | r4 r4 \tuplet 5/4 {r8 a'8.->(~ } | \tuplet 5/4 {a4 g16) }  \tuplet 5/4 { r4 a16->~ } a8. ef16~( |
+     ef4\>~ \tuplet 5/4 {ef16 d cs b a } af16\p\!) r16 r8 | 
      }
 
 maple_leaf_rag =  \relative c'' {

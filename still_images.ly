@@ -32,7 +32,9 @@ num =
         \mark \default
       r16_ "meno mosso" e'8.(->\mf~ e4. g16) r16 | 
       r16 e8.->~ \tuplet 5/4 {e8.[ a16( g16]~ } \tuplet 5/4 { g16[ f8. e16] } | \tuplet 5/4 { ef16 d16) r8. } r4 r4 | r4 r4 \tuplet 5/4 {r8 a'8.->(~ } | \tuplet 5/4 {a4 g16) }  \tuplet 5/4 { r4 a16->~ } a8. ef16~( |
-     ef4\>~ \tuplet 5/4 {ef16 d cs b a } af16\p\!) r16 r8 | 
+     ef4\>~ \tuplet 5/4 {ef16 d cs b a } af16\p\!) r16 r8 | \tuplet 5/4 { r8 a16\>[(g f ] } \tuplet 5/4 { e16) r8 b'16( a16} \tuplet 5/4 {g16[ f e])\! r8 } |  ef'2~\pp\< ef8 d16-.->\sf r16 | R2.^"take oboe" | 
+        
+        
      }
 
 maple_leaf_rag =  \relative c'' {
@@ -75,7 +77,37 @@ maple_leaf_rag =  \relative c'' {
  
   % \transpose c g { \cornaco_one } %
    \cornaco_one
-
+ \mark \default  R2._"a tempo" | R2. |
+     e2.(^"Oboe"\pp~ | e8\< f8)~ f2~\pp\!\> | f2\!_"niente" r4 |   r16\pp\< e'8.-- f,16\! e'8.-- r16\> e8 b16\!~ | \tuplet 6/4 { b16_"accelerando"(\< a gs) bf( a gs  } \tuplet 6/4 {g!16) bf( a g f e)  } \tuplet 7/4 { b'!16(  a g f e\! ef df } |
+     \tuplet 6/4 {b16) r16 c'16\< ( bf af gf } \tuplet 7/4 { e16-.) a ( g\!\mf e d c b  } bf16-.) r16 r8   | R2. | 
+     \time 4/4 
+        \mark \default  \tempo "Piu mosso" 4 = 96 
+        \pitchedTrill b''1->\f \startTrillSpan c |  as16-> r8 \stopTrillSpan  r16 r4 r2 | 
+           \pitchedTrill c,1->~ \startTrillSpan df |  c1~ | c1\< \stopTrillSpan  | \mark \default   c16->\ff_"ritenuto"  r16 r8 r16 b'16->\f r8 r4 r8 r16 as,16-> | 
+           b16-.-> r16 r8  \tuplet 5/4 {  bf8.[-- r16 bf16]->~ } bf8  g'16-.-> r16  \tuplet 5/4 {  gf,8[-- r16 g8]--~ }  | g16 g'16-.\> r8 \tuplet 5/4 {  e,8-- e8.--~( } e8 e'16-.) r16 \tuplet 5/4 {d,16-> d4--\!( } | cs'16) r16  r8 r4 r4 b16-. cs,8.( | 
+           d16-.->) r16 r8 r4 c'16\p r16 r8 r4 | r2 b16-. r16 r8 r4 | 
+           \mark \default  \tempo "Tempo I" 4 = 69 
+           af1--\pp~ | 
+           \time 2/4
+           \tuplet 5/4 {af16 gf( a! af g! } \tuplet 5/4  {fs16 as d ds e~ } | 
+           \time 4/4 
+           e1\pp\>~)
+           \time 2/4
+           \tuplet 6/4 {e16\! ef( d cs as fs } \tuplet 6/4 { g16 a! gs\< f a af\p\!~) }
+           \time 4/4 
+           af1\>\pp~
+           \time 2/4
+           \tuplet 6/4 {af16\!\< a!( af g af\! a!  }  \tuplet 6/4 {b16) r16 gs16(\> a b c)\!~ } |
+           \time 4/4 
+           c4~ \tuplet 3/2 {c4~ c16 cs16(  } \tuplet 6/4 { c!16\< a af g af\! a~ } \tuplet 5/4 {a16) bf8.( fs16)~ } |
+           \time 3/4
+          \tuplet 3/2 {fs4\<~ fs16\! g16-.} \tuplet 6/4 { as16->( b c-.) b8.\>~ } \tuplet 6/4 { b16\!\< ( c as b d e   } |  \mark \default a2~ a16) bf16->\sf  r8 | af4--\mf~ af16 ( g16\> d16 ds16 \tuplet 6/4 {gf16\mp\! f e df c b )} |  
+          bf16(\< a8 g16\!~ g16 gf16) r8 f4\<~  | f8 fs16\!\mf ( g16 f16 f!8 e16\>~ e4~ | 
+          \mark \default \tempo "Tempo II" 4 = 76
+          e2\pp\!) r4 | R2.*7 | 
+          \mark \default e'2. |
+          
+           
    
 }
 

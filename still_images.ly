@@ -119,15 +119,57 @@ maple_leaf_rag =  \relative c'' {
              \tuplet 5/4 {df4-- df16--~ } \tuplet 5/4 {df4-- df16--~ } \tuplet 5/4 {df4--\> df16--\!~ } |
              \mark \default
              
-          \tuplet 5/4 {df16[--\pp r8. c16]-. } \tuplet 5/4 {c16-. c16-. r8. } df4--~ | df16 r16 r8 r4 \tuplet 5/4 { r8. cs'8-.\mp } | 
-           
+          \tuplet 5/4 {df16[--\pp r8. c16]-. } \tuplet 5/4 {c16-. c16-. r8. } df4--~ | df16 r16 r8 r4 \tuplet 5/4 { r8. cs'8-.\mp } | r4 r4 \tuplet 5/4 {cs16[-.\mf r16\> d16 ( cs16 ds16]\!)} |
+          r4 \tuplet 5/4 { r4 e16-.\p}  r4 | \tuplet 5/4 { r4 c16\f~ } \tuplet 5/4 { c16[ r16 d16( cs16 ds16 ] } \tuplet 5/4 { e16 cs as b c! } | 
+           \mark \default
+          df16-.) r16 r8 a16-. r16 r8 a16-. r16 r8 | 
+          \time 4/4 \tuplet 3/2 { a8 a8. g16~} g4   \tuplet 5/4 { g16( fs4~ } \tuplet 5/4 {fs4) g16 (} |
+          \time 3/4
+          e16->) r16 r8 e4--~  \tuplet 5/4 { e8 ef'8.--(} | \tuplet 6/4 { d16[) r16 r8 d8]--~ }  \tuplet 5/4 { d16[ r8 cs,8]--~}  cs16 r16 r8 |    
+           \mark \default 
+           \tuplet 5/4 { r16\mf_"meno mosso" a'4->(~} a4   \tuplet 5/4 { bf16[-.) r8 a8]->( } | b16) r16 r8 r4 a4->~(  |
+            \tuplet 5/4 { a16[ g16]-.) r8. }  \tuplet 5/4 { r16 f8.-.\> b,16]-.\!} r4 | 
+            \mark \default \tempo "Tempo I" 4 = 69 R2. |
+            \time 2/4 
+            \tuplet 6/4 { r16 c4( cs16~} cs16\<) d16( f16\! fs16~ | 
+            \time 3/4
+            fs2.)\> |
+            \time 2/4
+            \tuplet 6/4 {r16\! g16[\<( df c b]) r16\! } \tuplet 7/4 { af'8.( g8 f8~ )}  | 
+            \time 3/4 
+            f2\>\!~ \tuplet 6/4 {f16 b\<( bf e, ef af\!)}  | \tuplet 5/4 {g16[\mp( af) g (a gs)] }   \pitchedTrill a4->~ \startTrillSpan bf  a32\< \stopTrillSpan (b cs d e f fs g\!) |  
+            \time 4/4 
+            \mark \default 
+            \tuplet 5/4 {a16[\mf( b a b bf])  }   \pitchedTrill b2 \startTrillSpan a  b32\<( \stopTrillSpan a af g gf e d c\!) | 
+            \time 3/4 bf2.\f~ | 
+            \time 4/4 
+            bf16 r16 r8 r4 r2 | 
+            \time 3/4
+            R2.*2 |
+             \mark \default \tempo "Tempo II" 4 = 76 
+             R2. | d2.\pp~ | d2.\<\! | 
+             \time 2/4 
+             ef16->\mp r16 r8 r4 | 
+             \time 3/4 
+             r16 ef8.~ ef2~ | ef2.\< | 
+             e!16\mf\! r16 r8 \tuplet 5/4 { r16 ef16[( df c b]}  \tuplet 5/4 { bf16[ \> c d! ef e!]} | 
+                \mark \default 
+             fs16-.\p) r16 r8 r4 r4 |   R2.*3 | bf,2~\pp bf8.\< r16\! | R2. | 
+             fs16-.\p r16 r8 r4 r4 | \tuplet 3/2 { r4 r16 b16-.} r4 r4 | \tuplet 3/2 {r8 f'16-. r8.} \tuplet 3/2 { r8 f16-. r8.} r4 | 
+             \tuplet 3/2 {r4 r16 c16\p\<(} \tuplet 6/4 { b16 df,16)\! r4 } r4 |  R2. |   
+              \tuplet 3/2 { r8 c''4\mp\<~ } \tuplet 3/2 {c8 r8\! b,8~ } \tuplet 3/2 { b4\< r8\!} | 
+              r4 \tuplet 6/4 { r4 r16 ef,16\mf( } \tuplet 6/4 { f'4->) ef16->(\<f,16\!)} | 
+                \mark \default 
+             \tuplet 3/2 {ef16->\f ef16\>( e!16\>\!)} r8 r4 r4 | r8 \tuplet 3/2 {b'16->\> ( gf f\!) } r8  \tuplet 3/2 {f16->\> ( e ef\!) } r4 | 
+              b'16->\mf\< r16 r8 gf16-> r16 r8 f'16->\! r16 r8 | e16->\ff  r16 r8 r4 r4 | R2.* 2 | f2.\ff\< |
+                \mark \default 
+              f16-.\!\ff r16 r8 r4 r4 | 
+              
+            
+            
    
 }
 
-
-cornaco =  \relative c'' {
-
-}
 
 
 

@@ -105,8 +105,21 @@ maple_leaf_rag =  \relative c'' {
           bf16(\< a8 g16\!~ g16 gf16) r8 f4\<~  | f8 fs16\!\mf ( g16 f16 f!8 e16\>~ e4~ | 
           \mark \default \tempo "Tempo II" 4 = 76
           e2\pp\!) r4 | R2.*7 | 
-          \mark \default e'2. |
-          
+          \mark \default e'8.->\f f16->~ f8. e16->~ e8.-> f16-. | 
+          \time 4/4
+          e16-> r16 r8  r4 r2 | 
+          \time 3/4 
+          R2. | r16 e,8.--\p~ e2~\< | \tuplet 5/4 {e16\mf\! e4--\p\< } ds16[-.\f r16 ds'16]->\ff r16 r4 | bf'8.--\mf bf16->~ bf8.\< bf16->~ bf8. bf16\!( | 
+          \time 4/4
+           \mark \default
+            a16->\f) r16 r8 r4 r2  | 
+            \time 3/4 
+            \tuplet 5/4 {bf16[-. r8 bf16]-. r16} \tuplet 5/4 {r16 bf16[-.  r8 bf16]-.  } \tuplet 5/4 {r8 bf16-. r8} | 
+            \tuplet 5/4 {df8-> ( c8) r16 } \tuplet 5/4 {c8-> ( b8) r16 } \tuplet 5/4 {b8 ( as8) b16  } | c16->\> r16 r8 cs,16-.\! r16 r8 d,16-.\p r16 r8 |  c4-- c4-- \tuplet 5/4 {c4-- df16->~ } | 
+             \tuplet 5/4 {df4-- df16--~ } \tuplet 5/4 {df4-- df16--~ } \tuplet 5/4 {df4--\> df16--\!~ } |
+             \mark \default
+             
+          \tuplet 5/4 {df16[--\pp r8. c16]-. } \tuplet 5/4 {c16-. c16-. r8. } df4--~ | df16 r16 r8 r4 \tuplet 5/4 { r8. cs'8-.\mp } | 
            
    
 }

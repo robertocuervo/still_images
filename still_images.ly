@@ -41,7 +41,7 @@ num =
       \mark \default  \tempo "meno mosso" 
     \pitchedTrill a2.~^"Englishhorn"  \startTrillSpan  bf {
        a2.~ |  a2.~ |  a2.~ | \afterGrace a2.\<(  { bf32[ a bf]) }     | 
-     \mark "BB"   \tempo "Tempo I" 4 = 69
+    \mark \markup { \box BB }  \tempo "Tempo I" 4 = 69
        a8-.\mf\!^"take Oboe"  \stopTrillSpan  } r8 r4 r4 | 
       }
     
@@ -185,7 +185,10 @@ maple_leaf_rag =  \relative c'' {
               %Corno%
           \transpose c g { \cornaco_two } 
            
-            R2. * 2 | f4--\pp \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~}|  \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~} |  \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~} | f2.\>\ppp | 
+            R2. * 2 | f4--\pp \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~}|  \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~} |  \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~} | 
+         
+             \mark \markup { \box CC }
+            f2.\>\ppp | 
             \time 2/4
             \tuplet 6/4 {r16\! e16[\p\<( ef cs e ef]~\!} \tuplet 3/2 {ef8) d8\>( c8~\!} 
             \time 3/4 
@@ -193,11 +196,44 @@ maple_leaf_rag =  \relative c'' {
             \time 2/4
             \tuplet 6/4 {r16\! cs16[\<( b e c' f~\!)]} f4\>~ | 
             \time 3/4            
-             << f2.\pp { s4\> s4\> s4\!\ppp} >>
+             << f2.\pp { s4\> s4 s4\!\ppp} >>
              \time 2/4 
              \tuplet 6/4 {r16\p\< f16( d4~\!} \tuplet 3/2 {d4\>  e16 gf16\!)} | 
+             \time 3/4 
+             \tuplet 6/4 { f16[( e f e f e]}  \tuplet 6/4 { f16[ e) f->( e ds) f]( }  \tuplet 6/4 { e16[ ds) f-> (e ds) f](} |
+             \time 2/4 
+              \tuplet 6/4 { e16[\< ds e f) e->( f] }  \tuplet 6/4 { fs16[ gs) e->( f gs! fs]\!) } |
+              \time 3/4
+              \tuplet 6/4 { g16[\mp( af g af g af]) } \tuplet 6/4 { g16[( af16 bf16) g16( af16 bf16]) }  \tuplet 6/4 { g16[( af16 bf16) g16( af16 bf16])  } | 
+             \time 2/4
+              \tuplet 6/4 { g16[\<^"accelerando"( af bf a! g f] }  \tuplet 6/4 { d16[ ds f e fs\! g] } | 
+              \time 3/4 
+               \mark \markup { \box DD }  \tempo "Andante" 4 = 76 
+              a16->\mf) r16 r8 r4 r4 |
+              \time 2/4
+              R2 |
+              \time 3/4
              
-             
+              a16[-.\f r16 bf,16]-. r16  \tuplet 3/2 { c'16[-. r16 c,16-. r16 cs'16]-. r16 }  \tuplet 3/2 { fs,8->\sf\>( fs,16-.\!) r8.} | 
+             b'16[-.\f r16 c,16]-. r16   cs'16[-. r16 c,16]-. r16    \tuplet 3/2 { f8->\sf\>( f,16-.\!) r8.} | 
+             \time 2/4 
+             e'4\< (f4\! )| 
+             \time 4/4
+             b16[-._"subito"\p r16 c,16]-. r16 \tuplet 6/4 {cs'16[-. r8. c,!16]-. r16} \tuplet 3/2 { f8->\sf\>(gf16-.\!) r8.}  \tuplet 6/4 {r16 f16\mf\<~ f4\!}  |
+              \time 3/4
+              \mark \markup { \box EE }
+              \pitchedTrill f2->\< \startTrillSpan e   f16->\!  \stopTrillSpan   r16 r8 | 
+               \pitchedTrill c'2->\< \startTrillSpan b  c16->\!  \stopTrillSpan   r16 r8 | 
+               \pitchedTrill c2->\ff\< \startTrillSpan b  c16->\!  \stopTrillSpan   r16 r8 | 
+                \time 4/4 
+                \pitchedTrill c2.->\< \startTrillSpan b  c4->\!  \stopTrillSpan  | 
+              \time 3/4
+              R2.\fermataMarkup | 
+              \time 4/4 
+              c,16-.\p r16 r8 r4 r2 |  R1\fermataMarkup | 
+              
+              
+
 }
 
 

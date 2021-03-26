@@ -183,9 +183,8 @@ maple_leaf_rag =  \relative c'' {
                 \mark \default 
                 cs16-.^"take English Horn" r16 r8 r4 r4 | 
               %Corno%
- 
-          % \transpose c g { \cornaco_one } %
-             \cornaco_two
+          \transpose c g { \cornaco_two } 
+           
             R2. * 2 | f4--\pp \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~}|  \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~} |  \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~} | f2.\>\ppp | 
             \time 2/4
             \tuplet 6/4 {r16\! e16[\p\<( ef cs e ef]~\!} \tuplet 3/2 {ef8) d8\>( c8~\!} 
@@ -194,9 +193,9 @@ maple_leaf_rag =  \relative c'' {
             \time 2/4
             \tuplet 6/4 {r16\! cs16[\<( b e c' f~\!)]} f4\>~ | 
             \time 3/4            
-             << f2.\!\pp { s4\> s4\> s4\!\ppp} >>
+             << f2.\pp { s4\> s4\> s4\!\ppp} >>
              \time 2/4 
-             \tuplet 6/4 {r16\p\< f16( d4~\!} \tuplet 3/2 {d4[\>  e16 gf16]\!} | 
+             \tuplet 6/4 {r16\p\< f16( d4~\!} \tuplet 3/2 {d4\>  e16 gf16\!)} | 
              
              
 }

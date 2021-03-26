@@ -24,8 +24,8 @@ num =
        r16 b!8.->~ b16 \acciaccatura as16( b8-> c16 df8. c16) \acciaccatura b16( df8-> d8~ |  d16[) r16 \acciaccatura af16( d16-> ds16]  e8.) e16-. \tuplet 3/2 { e4--\< e8--~} e16 e8.\! | 
        \time 3/4
         \mark \default  \tempo "Tempo II" 4 = 76
-      \tuplet 5/4 { bf'16[-.\mp r8. e,16]( } \tuplet 5/4 {ef16[ d e! cs ef]} \tuplet 5/4 { df16 c! d! ef d)}  | \tuplet 5/4 {r16[ df( c d! ef ]} \tuplet 5/4 {df16[ ef d  c df ]} \tuplet 5/4 { e16[) r16 d!( ef e!]} |
-      \tuplet 5/4 {ds16[ e ds e d]}  \tuplet 5/4 {d!16[ ds e ds d!] }   \tuplet 6/4 { ds16[ r d! ef d df] } | \tuplet 6/4 {c16[) r d( ef d cs] } \tuplet 6/4 { d16[) r16 d( c b as] } \tuplet 6/4 { b[ as a! as b c!]} | 
+      \tuplet 5/4 { bf'16[-.\mp r8. e,16]( } \tuplet 5/4 {ef16[ d e! cs ef]} \tuplet 5/4 { df16 c! d! ef! d)}  | \tuplet 5/4 {r16[ df( c d! ef ]} \tuplet 5/4 {df16[ ef d  c df ]} \tuplet 5/4 { e16[) r16 d!( ef e!]} |
+      \tuplet 5/4 {ds16[ e ds e ds]}  \tuplet 5/4 {d!16[ ds e ds d!] }   \tuplet 6/4 { ds16[ r d! ef d df] } | \tuplet 6/4 {c16[) r d( ef d cs] } \tuplet 6/4 { d16[) r16 d( cs! b as] } \tuplet 6/4 { b[ as a! as b c!]} | 
       \tuplet 6/4 { cs16[ d cs bs cs bs]} \tuplet 6/4 { d16[ cs16) r16 bs8( cs16]} \tuplet 5/4 { d16[ cs bs cs d]} | e16) r16 r8 r4 r4 |
       r4 r4 \tuplet 5/4 {r16\pp b'4~ } | \tuplet 5/4 { b4\< bf16-.\sf\! } r4 r4 | 
       r8 r16 cs,16( \tuplet 6/4 { b16[ bf af gf f]) r} \tuplet 6/4 {r4 r16 cs'16( } | \tuplet 6/4 { b16[ a g gf f e]) } \tuplet 6/4 { r8 cs'16\>[( b a af  ]} g16)\!\mp r16 r8  | R2. | 
@@ -76,10 +76,10 @@ maple_leaf_rag =  \relative c'' {
     R1  |
     g1~->_\f |
     g4~\< \tuplet 5/4 {g4 b,16->\ff\!~} b2 |
-     r2 r4 \tuplet 6/4 {r16_\mf d'16->~ d4~ } |      \pitchedTrill d4~\< \startTrillSpan cs d8.\stopTrillSpan c'!16 (cs,!2)\!   \mark \default |  
+     r2 r4 \tupletUp \tuplet 6/4 {r16_\mf d'16->~ d4~ } |      \pitchedTrill d4~\< \startTrillSpan cs d8.\stopTrillSpan c'!16 (cs,!2)\!   \mark \default |  
    f,16->\f r16 r8 r4 r4 \tuplet 5/4 {r8 g8.\mf~}  | 
    g4~ g4\f\< g'16-.\ff r16 r8 r4 | R1 | \time 3/4 c,16->\f r16 r8 r4  \tuplet 3/2 {r4 r16 d16~->\f} |
-    \tuplet 3/2 {d4 r16 c16-.}    \tuplet 6/4 { df16[-. r8 c8.]~} \repeat tremolo 4 c16\< | c'16->\fz r16 r8  r4 r4 | R2. |
+    \tuplet 3/2 {d4 r16 c16-.}    \tuplet 6/4 { df16-. r8 c8.~} \repeat tremolo 4 c16\< | c'16->\fz r16 r8  r4 r4 | R2. |
     r4 g,8--\mf\> g8~--\tuplet 6/4 { g16 g8.-- g8-\!} |  
     
     \time 4/4  
@@ -90,8 +90,8 @@ maple_leaf_rag =  \relative c'' {
   \transpose c g { \cornaco_one }
    
  \mark \default  R2._"a tempo" | R2. |
-     e2.(^"Oboe"\pp~ | e8\< f8)~ f2~\pp\!\> | f2\!_"niente" r4 |   r16\pp\< e'8.-- f,16\! e'8.-- r16\> e8 b16\!~ | \tuplet 6/4 { b16_"accelerando"(\< a gs) bf( a gs  } \tuplet 6/4 {g!16) bf( a g f e)  } \tuplet 7/4 { b'!16(  a g f e\! ef df } |
-     \tuplet 6/4 {b16) r16 c'16\< ( bf af gf } \tuplet 7/4 { e16-.) a ( g\!\mf e d c b  } bf16-.) r16 r8   | R2. | 
+     e2.(^"Oboe"\pp~ | e8\< f8)~ f2~\pp\!\> | f2\!_"niente" r4 |   r16\pp\< e'8.-- f,16\! e'8.-- r16\> e8 b16\!~ | \tuplet 6/4 { b16_"accelerando"(\< a gs) bf( a gs  } \tuplet 6/4 {g!16) bf!( a g f e)  } \tuplet 7/4 { b'!16(  a g f e\! ef df } |
+     \tuplet 6/4 {b16) r16 c'16\< ( bf af gf } \tuplet 7/4 { e!16-.) a ( g\!\mf e d c b  } bf16-.) r16 r8   | R2. | 
      \time 4/4 
         \mark \default  \tempo "Piu mosso" 4 = 96 
         \pitchedTrill b''1->\f \startTrillSpan c |  as16-> r8 \stopTrillSpan  r16 r4 r2 | 
@@ -101,7 +101,7 @@ maple_leaf_rag =  \relative c'' {
            \mark \default  \tempo "Tempo I" 4 = 69 
            af1--\pp~ | 
            \time 2/4
-           \tuplet 5/4 {af16 gf( a! af g! } \tuplet 5/4  {fs16 as d ds e~ } | 
+           \tupletDown \tuplet 5/4 {af16 gf( a! af g! } \tuplet 5/4  {fs16 as d ds e~ } | 
            \time 4/4 
            e1\pp\>~)
            \time 2/4
@@ -111,7 +111,7 @@ maple_leaf_rag =  \relative c'' {
            \time 2/4
            \tuplet 6/4 {af16\!\< a!( af g af\! a!  }  \tuplet 6/4 {b16) r16 gs16(\> a b c)\!~ } |
            \time 4/4 
-           c4~ \tuplet 3/2 {c4~ c16 cs16(  } \tuplet 6/4 { c!16\< a af g af\! a~ } \tuplet 5/4 {a16) bf8.( fs16)~ } |
+           c4~ \tupletUp \tuplet 3/2 {c4~ c16 cs16(  } \tuplet 6/4 { c!16\< a af g af\! a~ } \tuplet 5/4 {a16) bf8.( fs16)~ } |
            \time 3/4
           \tuplet 3/2 {fs4\<~ fs16\! g16-.} \tuplet 6/4 { as16->( b c-.) b8.\>~ } \tuplet 6/4 { b16\!\< ( c as b d e   } |  \mark \default a2~ a16) bf16->\sf  r8 | af4--\mf~ af16 ( g16\> d16 ds16 \tuplet 6/4 {gf16\mp\! f e df c b )} |  
           bf16(\< a8 g16\!~ g16 gf16) r8 f4\<~  | f8 fs16\!\mf ( g16 f16 f!8 e16\>~ e4~ | 
@@ -127,7 +127,7 @@ maple_leaf_rag =  \relative c'' {
             a16->\f) r16 r8 r4 r2  | 
             \time 3/4 
             \tuplet 5/4 {bf16[-. r8 bf16]-. r16} \tuplet 5/4 {r16 bf16[-.  r8 bf16]-.  } \tuplet 5/4 {r8 bf16-. r8} | 
-            \tuplet 5/4 {df8-> ( c8) r16 } \tuplet 5/4 {c8-> ( b8) r16 } \tuplet 5/4 {b8 ( as8) b16  } | c16->\> r16 r8 cs,16-.\! r16 r8 d,16-.\p r16 r8 |  c4-- c4-- \tuplet 5/4 {c4-- df16->~ } | 
+           \tupletDown \tuplet 5/4 {df8-> ( c8) r16 } \tuplet 5/4 {c8-> ( b8) r16 } \tuplet 5/4 {b8 ( as8) b16  } | c16->\> r16 r8 cs,16-.\! r16 r8 d,16-.\p r16 r8 |  c4-- c4-- \tupletUp \tuplet 5/4 {c4-- df16->~ } | 
              \tuplet 5/4 {df4-- df16--~ } \tuplet 5/4 {df4-- df16--~ } \tuplet 5/4 {df4--\> df16--\!~ } |
              \mark \default
              
@@ -200,13 +200,13 @@ maple_leaf_rag =  \relative c'' {
              \time 2/4 
              \tuplet 6/4 {r16\p\< f16( d4~\!} \tuplet 3/2 {d4\>  e16 gf16\!)} | 
              \time 3/4 
-             \tuplet 6/4 { f16[( e f e f e]}  \tuplet 6/4 { f16[ e) f->( e ds) f]( }  \tuplet 6/4 { e16[ ds) f-> (e ds) f](} |
+           \tupletDown  \tuplet 6/4 { f16[( e f e f e]}  \tuplet 6/4 { f16[ e) f->( e ds) f]( }  \tuplet 6/4 { e16[ ds) f-> (e ds) f](} |
              \time 2/4 
               \tuplet 6/4 { e16[\< ds e f) e->( f] }  \tuplet 6/4 { fs16[ gs) e->( f gs! fs]\!) } |
               \time 3/4
               \tuplet 6/4 { g16[\mp( af g af g af]) } \tuplet 6/4 { g16[( af16 bf16) g16( af16 bf16]) }  \tuplet 6/4 { g16[( af16 bf16) g16( af16 bf16])  } | 
              \time 2/4
-              \tuplet 6/4 { g16[\<^"accelerando"( af bf a! g f] }  \tuplet 6/4 { d16[ ds f e fs\! g] } | 
+             \tupletNeutral \tuplet 6/4 { g16[\<^"accelerando"( af bf a! g f] }  \tuplet 6/4 { d16[ ds f e fs\! g] } | 
               \time 3/4 
                \mark \markup { \box DD }  \tempo "Andante" 4 = 76 
               a16->\mf) r16 r8 r4 r4 |
@@ -230,8 +230,24 @@ maple_leaf_rag =  \relative c'' {
               \time 3/4
               R2.\fermataMarkup | 
               \time 4/4 
-              c,16-.\p r16 r8 r4 r2 |  R1\fermataMarkup | 
-              
+              c,16-.\p r16 r8 r4 r2 |  R1\fermataMarkup 
+              \mark \markup { \box FF }
+              |\tempo "meno mosso"   \tuplet 5/4 { df16[(->\p b) bf->( c,) a']~} \tuplet 5/4 { a16 a8-- r8} r2 | 
+              \time 3/4 
+               \tuplet 5/4 { df16[(->\p b) bf->( c,) a']-.} \tuplet 5/4 {c16[( d8.) b!16]-.} \tuplet 5/4 {bf16[->( a8) r16 ef16]~} | ef2~ \tuplet 6/4 { ef8[ r16 fs16->(cs16 f!16]} | e2)  d4--( | 
+              d2 df4\<) | df2.\sfp\!(  |  d8.\mp\<) c16->\sfp~ c2~ | 
+              c4~ c32[( cs d e fs gs a bf]\mp) c![( cs\> ds e f fs gs as] \! | 
+              \mark \markup { \box GG }
+              b16-.\pp) r16 r8 r4 r4 |  
+              \time 4/4
+            \tupletUp  \tuplet 5/4 {as4--\pp\< as16~} \tuplet 5/4 {as16[ r16 as8.]} \tuplet 5/4 {as8[ r16 as8]~} \tuplet 5/4 {as16[ r16 as8.]\!} | 
+              \time 3/4
+              \tuplet 5/4 {as4--\pp\< as16~} \tuplet 5/4 {as16[ r16 as8.]} \tuplet 5/4 {as8[ r16 as8]} | \tuplet 5/4 {as4--\pp\< as16~} \tuplet 5/4 {as16[ r16 as8.]} \tuplet 5/4 {as8[ r16 as8]~} |
+               as2.->\<   
+            
+              \tupletNeutral \tuplet 6/4 {as16[( b16 as16 b16) df16( c16]}  \tuplet 6/4 {b16[ as) df( c b as])}   \tuplet 6/4  { b16[(as b c df d])} |
+              ef16-.\!\f r16 r8  \tuplet 3/2 {r8 f,16-.\mf r8.} r4 | 
+              e'16-.\pp r16 r8 r4 r4\fermataMarkup |  \bar "||"
               
 
 }

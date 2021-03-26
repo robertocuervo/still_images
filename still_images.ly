@@ -234,7 +234,7 @@ maple_leaf_rag =  \relative c'' {
               \mark \markup { \box FF }
               |\tempo "meno mosso"   \tuplet 5/4 { df16[(->\p b) bf->( c,) a']~} \tuplet 5/4 { a16 a8-- r8} r2 | 
               \time 3/4 
-               \tuplet 5/4 { df16[(->\p b) bf->( c,) a']-.} \tuplet 5/4 {c16[( d8.) b!16]-.} \tuplet 5/4 {bf16[->( a8) r16 ef16]~} | ef2~ \tuplet 6/4 { ef8[ r16 fs16->(cs16 f!16]} | e2)  d4--( | 
+               \tuplet 5/4 { df16[(->\p b) bf->( c,) a']-.} \tuplet 5/4 {c16[( d8.) b!16]-.} \tuplet 5/4 {bf16[->( a8) r16 ef16]~} | ef2~ \tuplet 6/4 { ef8[ r16 fs16->(cs16 f!16]} | e2)  d4--(~ | 
               d2 df4\<) | df2.\sfp\!(  |  d8.\mp\<) c16->\sfp~ c2~ | 
               c4~ c32[( cs d e fs gs a bf]\mp) c![( cs\> ds e f fs gs as] \! | 
               \mark \markup { \box GG }

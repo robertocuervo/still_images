@@ -15,7 +15,7 @@ num =
     #})
   cornaco_one = \relative c' {
      \time 4/4  
-    r4_"Englishhorn" \tuplet 3/2 { r4 d8~(\pp} d8 \acciaccatura e16 ef8~-> ef16 d8.~ | d8[) r16 e!16](->~e16[ d16) r16 e!16](->~e16 d16\>)  r16 e16(->~ \tuplet 3/2 {e16 d16 e4~\!} | 
+    r4^"Englishhorn" \tuplet 3/2 { r4 d8~(\pp} d8 \acciaccatura e16 ef8~-> ef16 d8.~ | d8[) r16 e!16](->~e16[ d16) r16 e!16](->~e16 d16\>)  r16 e16(->~ \tuplet 3/2 {e16 d16 e4~\!} | 
      \time 3/4  
      e16)_"niente"  r16 r 8 r4 r4 | 
        \time 4/4 
@@ -87,8 +87,8 @@ maple_leaf_rag =  \relative c'' {
     \mark \default  \tempo "Tempo I" 4 = 69
     %Corno%
  
-  % \transpose c g { \cornaco_one } %
-   \cornaco_one
+  \transpose c g { \cornaco_one }
+   
  \mark \default  R2._"a tempo" | R2. |
      e2.(^"Oboe"\pp~ | e8\< f8)~ f2~\pp\!\> | f2\!_"niente" r4 |   r16\pp\< e'8.-- f,16\! e'8.-- r16\> e8 b16\!~ | \tuplet 6/4 { b16_"accelerando"(\< a gs) bf( a gs  } \tuplet 6/4 {g!16) bf( a g f e)  } \tuplet 7/4 { b'!16(  a g f e\! ef df } |
      \tuplet 6/4 {b16) r16 c'16\< ( bf af gf } \tuplet 7/4 { e16-.) a ( g\!\mf e d c b  } bf16-.) r16 r8   | R2. | 

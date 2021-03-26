@@ -114,7 +114,7 @@ maple_leaf_rag =  \relative c'' {
            c4~ \tupletUp \tuplet 3/2 {c4~ c16 cs16(  } \tuplet 6/4 { c!16\< a af g af\! a~ } \tuplet 5/4 {a16) bf8.( fs16)~ } |
            \time 3/4
           \tuplet 3/2 {fs4\<~ fs16\! g16-.} \tuplet 6/4 { as16->( b c-.) b8.\>~ } \tuplet 6/4 { b16\!\< ( c as b d e   } |  \mark \default a2~ a16) bf16->\sf  r8 | af4--\mf~ af16 ( g16\> d16 ds16 \tuplet 6/4 {gf16\mp\! f e df c b )} |  
-          bf16(\< a8 g16\!~ g16 gf16) r8 f4\<~  | f8 fs16\!\mf ( g16 f16 f!8 e16\>~ e4~ | 
+          bf16(\< a8 g16\!~ g16 gf16) r8 f4\<~  | f8 fs16\!\mf ( g16 fs16 f!8 e16\>~ e4~ | 
           \mark \default \tempo "Tempo II" 4 = 76
           e2\pp\!) r4 | R2.*7 | 
           \mark \default e'8.->\f f16->~ f8. e16->~ e8.-> f16-. | 
@@ -243,9 +243,8 @@ maple_leaf_rag =  \relative c'' {
             \tupletUp  \tuplet 5/4 {as4--\pp\< as16~} \tuplet 5/4 {as16[ r16 as8.]} \tuplet 5/4 {as8[ r16 as8]~} \tuplet 5/4 {as16[ r16 as8.]\!} | 
               \time 3/4
               \tuplet 5/4 {as4--\pp\< as16~} \tuplet 5/4 {as16[ r16 as8.]} \tuplet 5/4 {as8[ r16 as8]} | \tuplet 5/4 {as4--\pp\< as16~} \tuplet 5/4 {as16[ r16 as8.]} \tuplet 5/4 {as8[ r16 as8]~} |
-                
               \pitchedTrill  as2.->\<  \startTrillSpan b   |
-              \tupletNeutral \tuplet 6/4 {as16[\stopTrillSpan (  b16 as16 b16) df16( c16]}  \tuplet 6/4 {b16[ as) df( c b as])}   \tuplet 6/4  { b16[(as b c df d])} |
+              \tupletNeutral \tuplet 6/4 {as16[(  \stopTrillSpan b16 as16 b16) df16( c16]}  \tuplet 6/4 {b16[ as) df( c b as])}   \tuplet 6/4  { b16[(as b c df d])} |
               ef16-.\!\f r16 r8  \tuplet 3/2 {r8 f,16-.\mf r8.} r4 | 
               e'16-.\pp r16 r8 r4 r4\fermataMarkup |  \bar "||"
               

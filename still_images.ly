@@ -33,9 +33,21 @@ num =
       r16_ "meno mosso" e'8.(->\mf~ e4. g16) r16 | 
       r16 e8.->~ \tuplet 5/4 {e8.[ a16( g16]~ } \tuplet 5/4 { g16[ f8. e16] } | \tuplet 5/4 { ef16 d16) r8. } r4 r4 | r4 r4 \tuplet 5/4 {r8 a'8.->(~ } | \tuplet 5/4 {a4 g16) }  \tuplet 5/4 { r4 a16->~ } a8. ef16~( |
      ef4\>~ \tuplet 5/4 {ef16 d cs b a } af16\p\!) r16 r8 | \tuplet 5/4 { r8 a16\>[(g f ] } \tuplet 5/4 { e16) r8 b'16( a16} \tuplet 5/4 {g16[ f e])\! r8 } |  ef'2~\pp\< ef8 d16-.->\sf r16 | R2.^"take oboe" | 
-        
-        
      }
+
+      cornaco_two = \relative c' {
+     
+      R2. *8 | 
+      \mark \default  \tempo "meno mosso" 
+    \pitchedTrill a2.~^"Englishhorn"  \startTrillSpan  bf {
+       a2.~ |  a2.~ |  a2.~ | \afterGrace a2.\<(  { bf32[ a bf]) }     | 
+     \mark "BB"   \tempo "Tempo I" 4 = 69
+       a8-.\mf\!^"take Oboe"  \stopTrillSpan  } r8 r4 r4 | 
+      }
+    
+    
+    
+
 
 maple_leaf_rag =  \relative c'' {
   \set Score.markFormatter = # format-mark-box-alphabet
@@ -163,11 +175,30 @@ maple_leaf_rag =  \relative c'' {
              \tuplet 3/2 {ef16->\f ef16\>( e!16\>\!)} r8 r4 r4 | r8 \tuplet 3/2 {b'16->\> ( gf f\!) } r8  \tuplet 3/2 {f16->\> ( e ef\!) } r4 | 
               b'16->\mf\< r16 r8 gf16-> r16 r8 f'16->\! r16 r8 | e16->\ff  r16 r8 r4 r4 | R2.* 2 | f2.\ff\< |
                 \mark \default 
-              f16-.\!\ff r16 r8 r4 r4 | 
-              
-            
-            
-   
+              f16-.\!\ff r16 r8 r4 r4 | R2.* 2 | r4 g4--\mf\< f,4-- |  
+                \mark \default 
+                f16->\f r16 r8 ef16-> r16 r8 f16-> r16 r8 | \tuplet 6/4 {r16 d'8.[->( cs16-.)] r16 } cs16[->\fz (as16-.) d8]~( d8 ds8  | e8 ds16-.) r16 \tuplet 3/2 { r16 e16[\fz( c8-> c,16]-.) r16} e'16[-> r16 d8]-> | 
+                \tuplet 6/4 { r16 e16->~ e4} \tuplet 6/4 { r16 b8[\fz( c16 cs16 g16]-.)} \tuplet 6/4 {r16 e'16->~ e4} | e16-> r16 r8 df8-> r8 ef16-> r16 r8 | bf8-> r8 ef16-. r16 r8 af8-> r8 | 
+                \tuplet 5/4 { ef16[-> r8. ef16]-.\>} \tuplet 5/4 {r4 df16->} c16-> r16 r8\! | b,8--\> r8 r4 d16-.\mp\! r16 r8 | 
+                \mark \default 
+                cs16-.^"take English Horn" r16 r8 r4 r4 | 
+              %Corno%
+ 
+          % \transpose c g { \cornaco_one } %
+             \cornaco_two
+            R2. * 2 | f4--\pp \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~}|  \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~} |  \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~} | f2.\>\ppp | 
+            \time 2/4
+            \tuplet 6/4 {r16\! e16[\p\<( ef cs e ef]~\!} \tuplet 3/2 {ef8) d8\>( c8~\!} 
+            \time 3/4 
+            c2.)\pp\> | 
+            \time 2/4
+            \tuplet 6/4 {r16\! cs16[\<( b e c' f~\!)]} f4\>~ | 
+            \time 3/4            
+             << f2.\!\pp { s4\> s4\> s4\!\ppp} >>
+             \time 2/4 
+             \tuplet 6/4 {r16\p\< f16( d4~\!} \tuplet 3/2 {d4[\>  e16 gf16]\!} | 
+             
+             
 }
 
 

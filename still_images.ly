@@ -40,9 +40,9 @@ num =
       R2. *8 | 
       \mark \default  \tempo "meno mosso" 
     \pitchedTrill a2.~^"Englishhorn"  \startTrillSpan  bf {
-       a2.~ |  a2.~ |  a2.~ | \afterGrace a2.\<(  { bf32[ a bf]) }     | 
+       a2.~ |  a2.~ |  a2.~ | \afterGrace a2.\<(  { bf32[ \stopTrillSpan  a bf]) }     | 
     \mark \markup { \box BB }  \tempo "Tempo I" 4 = 69
-       a8-.\mf\!^"take Oboe"  \stopTrillSpan  } r8 r4 r4 | 
+       a8-.\mf\!^"take Oboe"  } r8 r4 r4 | 
       }
     
     
@@ -245,7 +245,7 @@ maple_leaf_rag =  \relative c'' {
               \tuplet 5/4 {as4--\pp\< as16~} \tuplet 5/4 {as16[ r16 as8.]} \tuplet 5/4 {as8[ r16 as8]} | \tuplet 5/4 {as4--\pp\< as16~} \tuplet 5/4 {as16[ r16 as8.]} \tuplet 5/4 {as8[ r16 as8]~} |
                 
               \pitchedTrill  as2.->\<  \startTrillSpan b   |
-              \tupletNeutral \tuplet 6/4 {as16[(  \stopTrillSpan b16 as16 b16) df16( c16]}  \tuplet 6/4 {b16[ as) df( c b as])}   \tuplet 6/4  { b16[(as b c df d])} |
+              \tupletNeutral \tuplet 6/4 {as16[\stopTrillSpan (  b16 as16 b16) df16( c16]}  \tuplet 6/4 {b16[ as) df( c b as])}   \tuplet 6/4  { b16[(as b c df d])} |
               ef16-.\!\f r16 r8  \tuplet 3/2 {r8 f,16-.\mf r8.} r4 | 
               e'16-.\pp r16 r8 r4 r4\fermataMarkup |  \bar "||"
               

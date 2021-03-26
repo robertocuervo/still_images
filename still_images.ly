@@ -15,7 +15,7 @@ num =
     #})
   cornaco_one = \relative c' {
      \time 4/4  
-    r4^"Englishhorn" \tuplet 3/2 { r4 d8~(\pp} d8 \acciaccatura e16 ef8~-> ef16 d8.~ | d8[) r16 e!16](->~e16[ d16) r16 e!16](->~e16 d16\>)  r16 e16(->~ \tuplet 3/2 {e16 d16 e4~\!} | 
+    r4_"Englishhorn" \tuplet 3/2 { r4 d8~(\pp} d8 \acciaccatura e16 ef8~-> ef16 d8.~ | d8[) r16 e!16](->~e16[ d16) r16 e!16](->~e16 d16\>)  r16 e16(->~ \tuplet 3/2 {e16 d16 e4~\!} | 
      \time 3/4  
      e16)_"niente"  r16 r 8 r4 r4 | 
        \time 4/4 
@@ -39,7 +39,7 @@ num =
      
       R2. *8 | 
       \mark \default  \tempo "meno mosso" 
-    \pitchedTrill a2.~^"Englishhorn"  \startTrillSpan  bf {
+    \pitchedTrill a2.~_"Englishhorn"  \startTrillSpan  bf {
        a2.~ |  a2.~ |  a2.~ | \afterGrace a2.\<(  { bf32[ \stopTrillSpan  a bf]) }     | 
     \mark \markup { \box BB }  \tempo "Tempo I" 4 = 69
        a8-.\mf\!^"take Oboe"  } r8 r4 r4 | 
@@ -185,7 +185,7 @@ maple_leaf_rag =  \relative c'' {
               %Corno%
           \transpose c g { \cornaco_two } 
            
-            R2. * 2 | f4--\pp \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~}|  \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~} |  \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~} | 
+            R2. * 2 | f4--\pp^"Oboe" \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~}|  \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~} |  \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~}  \tuplet 5/4 {f8[ r16 f8]~} | 
          
              \mark \markup { \box CC }
             f2.\>\ppp | 
